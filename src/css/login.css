@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.right-header p,button,.right-item p,.right-login a{
+    cursor: pointer;
+}
+ul ,li{
+    list-style: none;
+}
+.header{
+    width: 1130px;
+    height: 98px;
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+    height: 616px;
+    background-color: #E9FEFF;
+}
+.content{
+    width: 1130px;
+    height: 616px;
+    margin: 0 auto;
+}
+.left{
+    width: 670px;
+    height: 616px;
+    float: left;
+}
+.right{
+    width: 410px;
+    height: 550px;
+    float: left;
+    margin-top: 65px;
+    padding: 0 25px ;
+    background-color: #fff;
+}
+.icon{
+    display: none;
+}
+.right-header{
+    font-size: 24px;
+    text-align: center;
+    overflow: hidden;
+}
+.right-header p{
+    margin-top: 25px;
+    float: left;
+    color: #666;
+}
+.right .right-header .co{
+    color: #f56600;
+}
+.right-header p:hover{
+    color: #f56600;
+}
+.right-header p:nth-child(1){
+    margin-left: 55px;
+}
+.line{
+    width: 1px;
+    height: 24px;
+    float: left;
+    margin: 28px 55px 0 50px;
+    border: 1px solid #e0e0e0;
+}
+.right-ipt{
+    margin-top: 40px;
+    overflow: hidden;
+}
+.right-ipt input{
+    width: 380px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px 14px 10px 12px;
+}
+.right-ipt button{
+     width: 410px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #FF6700;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+.right-item{
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.right-item p:nth-child(1){
+    float: left;
+    color: #f56600;
+}
+.right-item p:nth-child(2){
+    float: right;
+    color: #666;
+}
+.right .right-item p:nth-child(2) span:hover{
+    color: #f56600;
+}
+.right-bot{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.right-bot fieldset{
+    border: none;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.right-bot legend{
+    font-size: 15px;
+    color: #ccc;
+}
+.right-login{
+    width: 410px;
+    margin-top: 15px;
+    text-align: center;
+}
+.right-login a i{
+    font-size: 36px;
+    margin: 0 10px;
+}
+.right-login a:nth-child(1){
+    color: #0288D1;
+}
+.right-login a:nth-child(2){
+    color: #D32F2F;
+}
+.right-login a:nth-child(3){
+    color: #00AAEE;
+}
+.right-login a:nth-child(4){
+    color: #00D20D;
+}
+.bottom{
+    width: 1130px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 15px;
+}
+.bottom ul{
+    width: 400px;
+    margin: 10px auto;
+    overflow: hidden;
+    color: #666;
+}
+.bottom ul li{
+    float: left;
+    cursor: pointer;
+}
+.bottom ul li a{
+    color: #666;
+}
+.bottom li a:hover{
+    color: #333;
+}
+.bottom li span{
+    padding: 0 15px;
+}
+.bottom-text{
+    width: 640px;
+    color: #666;
+    margin: 10px auto;
+}
