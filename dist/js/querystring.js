@@ -1,0 +1,1 @@
+"use strict";var parseQuery=function(e){for(var r=/([^=&\s]+)[=\s]*([^&\s]*)/g,s={};r.exec(e);)s[RegExp.$1]=RegExp.$2;return console.log(s),s};

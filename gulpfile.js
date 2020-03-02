@@ -68,6 +68,12 @@ const libHandler = () => {
              .pipe(gulp.dest('./dist/lib'))
 }
 
+//移动 font 文件的方法
+const fontHandler = () => {
+  return gulp.src('./src/font/**')
+              .pipe(gulp.dest('./dist/font'));
+}
+
 // 7. 书写一个任务, 自动删除 dist 目录
 const delHandler = () => {
   // 这个函数的目的就是为了删除 dist 目录使用的
@@ -117,6 +123,7 @@ const watchHandler = () => {
   gulp.watch('./src/lib/**', libHandler)
   gulp.watch('./src/images/**', imgHandler)
   gulp.watch('./src/sass/*.scss', sassHandler)
+  gulp.watch('./src/font/**',fontHandler)
 }
 
 
@@ -131,7 +138,7 @@ const watchHandler = () => {
 //   要在删除完毕 dist 以后, 在执行 css/js/html/... 之类的压缩转移任务
 module.exports.default = gulp.series(
   delHandler,
-  gulp.parallel(cssHandler, jsHandler, htmlHandler, imgHandler, libHandler, sassHandler),
+  gulp.parallel(cssHandler, jsHandler, htmlHandler, imgHandler, libHandler, sassHandler,fontHandler),
   serverHandler,
   watchHandler
 )

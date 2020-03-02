@@ -29,23 +29,19 @@ window.onload = function () {
 
     btn1.onclick = function () {
 
-        axios.post(regApi, {
-            username: uname.value,
-            password: upass.value
-        }).then(res => {
-            console.log(res);
-            // alert('该用户未注册！');
-        })
-
         axios.get(loginApi, {
             params: {
                 username: uname.value,
                 password: upass.value
             }
         }).then(res => {
+            console.log(res);
             if (res.data.code == 1) {
+                console.log(res.data.code);
                 Cookies.set('id', res.data.data.id, { expires: 365 })
                 Cookies.set('username', res.data.data.username, { expires: 365 })
+
+                console.log(Cookies.get('id'));
 
                 //验证
                 let ip = false;
@@ -63,15 +59,12 @@ window.onload = function () {
                 } else {
                     ps = false;
                 }
-                if (ip && ps) {
+                /* if (ip && ps) {
                     alert('登录成功')
                     location.href = './index.html';
-                }
+                } */
             }
         })
-
-
-
     }
 
 
