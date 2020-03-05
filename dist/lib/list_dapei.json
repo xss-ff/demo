@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/50649d7b5706f4cd9f658e93db6b6564.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "小米真无线蓝牙耳机 Air 2",
+        "pro": "智能真无线，轻松舒适戴",
+        "price": "399元"
+    },
+    {
+        "id": 2,
+        "img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/321610e787393c42e5cb2e5730a7681d.jpg?thumb=1&w=250&h=250",
+        "name": "小米小爱蓝牙音箱 随身版",
+        "pro": "小巧便携，一键唤醒小爱",
+        "price": "49元"
+    },
+    {
+        "id": 3,
+        "img": "https://i8.mifile.cn/b2c-mimall-media/92af1f21293fabfbf2a112892b864925!250x250.jpg",
+        "name": "小米蓝牙耳机AirDots青春版",
+        "pro": "雅致简约，收纳充电盒",
+        "price": "199元"
+    },
+    {
+        "id": 4,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/faf8668acb2fd80c0afad4d4c4e837ad.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "小米降噪项圈蓝牙耳机",
+        "pro": "无线降噪，静无止境",
+        "price": "469元"
+    },
+    {
+        "id": 5,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/df90d51fce8449db25c9a71c715dec1b.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "Redmi AirDots 真无线蓝牙耳机",
+        "pro": "自动秒连，拿起就能用",
+        "price": "99.9元"
+    },
+    {
+        "id": 6,
+        "img": "https://i8.mifile.cn/b2c-mimall-media/838ba427ef55317d8c4911b02c95bb79!250x250.jpg",
+        "name": "小米蓝牙项圈耳机",
+        "pro": "挂在脖子上的好耳机",
+        "price": "269元"
+    },
+    {
+        "id": 7,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e6a35e4dfff70f4195b29e8008716d82.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "小米运动蓝牙耳机青春版",
+        "pro": "音随你动",
+        "price": "99元"
+    },
+    {
+        "id": 8,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8b619d27877bbc497468c673a317a847.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "小米小爱音箱Pro",
+        "pro": "语音遥控5000+品牌主流家电",
+        "price": "299元"
+    }
+]

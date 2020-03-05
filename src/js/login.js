@@ -59,10 +59,12 @@ window.onload = function () {
                 } else {
                     ps = false;
                 }
-                /* if (ip && ps) {
+                if (ip && ps) {
                     alert('登录成功')
                     location.href = './index.html';
-                } */
+                }else{
+                    alert('账号或密码错误！');
+                }
             }
         })
     }
@@ -100,7 +102,7 @@ window.onload = function () {
             }
             if (ip && ps && res.data.code == 1) {
                 alert('注册成功！');
-                location.href = './login.html';
+                // location.href = './login.html';
             }else{
                 alert('账号或密码格式不正确！');
             }

@@ -99,7 +99,11 @@ const serverHandler = () => {
                  {
                    source: '/gx2',
                    target: 'http://127.0.0.1/xxx.php'
-                 }
+                 },
+                 {
+                  source: '/dm',
+                  target: 'https://search.damai.cn/searchajax.html'
+                }
                ]
              })) // 开启服务器
 }

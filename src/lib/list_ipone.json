@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0099822e42b4428cb25c4cdebc6ca53d.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "小米10",
+        "pro": "晓龙865/1亿像素相机",
+        "price": "3999元起"
+    },
+    {
+        "id": 2,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "Redmi K30",
+        "pro": "120Hz流速屏，全屏热爱",
+        "price": "1599元起"
+    },
+    {
+        "id": 3,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/53641901fbc28cbcdb495b17fdf69e46.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "Redmi K30 5G",
+        "pro": "双模5G，120Hz流速屏",
+        "price": "1999元起"
+    },
+    {
+        "id": 4,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "小米CC9 Pro",
+        "pro": "1亿像素，五摄四闪",
+        "price": "2599元qi"
+    },
+    {
+        "id": 5,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d295c4fb500d163a7045dc715b47f808.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "Redmi 8",
+        "pro": "5000mAh超长续航",
+        "price": "749元起"
+    },
+    {
+        "id": 6,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c924c3f3436b6934495fd98f159ee3f7.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "Redmi 8A",
+        "pro": "5000mAh超长续航",
+        "price": "599元起"
+    },
+    {
+        "id": 7,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6f2493e6c6fe8e2485c407e5d75e3651.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "Redmi Note 8 Pro",
+        "pro": "6400万全场景四摄",
+        "price": "1999元起"
+    },
+    {
+        "id": 8,
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c87947d104ee5833913e4c520108f16.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+        "name": "Redmi Note 8",
+        "pro": "千元4800万四摄",
+        "price": "999元起"
+    }
+]
