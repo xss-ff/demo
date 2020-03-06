@@ -169,6 +169,10 @@ li {
       font-size: 16px;
       margin-left: 100px;
       cursor: pointer;
+
+      &:hover .nav_list{
+        display: block;
+      }
     }
   }
 }
@@ -232,6 +236,7 @@ li {
   background-color: #fff;
   z-index: 999;
   display: none;
+  transition: 2s;
 
   > ul {
     width: 100%;
@@ -256,7 +261,7 @@ li {
 }
 
 .list_box {
-  min-width: 300px;
+  width: 965px;
   height: 460px;
   position: absolute;
   top: 140px;
@@ -272,11 +277,12 @@ li {
     flex-wrap: wrap;
 
     > li {
-      width: 25%;
+      width: 22%;
       height: 70px;
       display: flex;
       align-items: center;
       font-size: 12px;
+      margin: 10px 0 0 20px;
 
       img {
         width: 50px;

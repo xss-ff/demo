@@ -123,13 +123,11 @@ window.onload = function(){
 
 
 
-
   $('.all')
     .on({
       mouseenter: () => $('.nav_list').stop().show(),
       mouseleave: () => $('.nav_list').stop().hide(1000)
     })
-
 
   $('.nav_list')
     .on({
